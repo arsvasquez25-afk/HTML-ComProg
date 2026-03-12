@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="/MMW/rosswaylogo1.png" alt="Logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="truthtable.html">Truth Table</a>
+            <a href="practice.html" class="active">Practice</a>
+        </div>
+    </nav>
+
+    <main class="rectangle">
+
+        <header>
+            <h1 style="text-align: center;">Practice</h1>
+        </header>
+
+        <section>
+            <p style="text-align: center; color: dimgray; font-size: 13px; padding-bottom: 20px;">Answer each question then click "Show Answer" to check.<br> You may check the <b><a href="truthtable.html" target="_blank" style="color: dimgray;">Truth Table</a></b> tab.</p>
+
+            <!-- Question 1 -->
+            <div class="question-block">
+                <p><strong>1.</strong> What is the symbol for <strong>Conjunction</strong>?</p>
+                <input type="text" placeholder="Type your answer here...">
+                <br><br>
+                <button class="show-btn" onclick="this.nextElementSibling.style.display='block'">Show Answer</button>
+                <p class="answer" style="display:none;">✅ The symbol for Conjunction is <strong>p ∧ q</strong> (and).</p>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question-block">
+                <p><strong>2.</strong> If p = <strong>True</strong> and q = <strong>False</strong>, what is <strong>p → q</strong> (Conditional)?</p>
+                <input type="text" placeholder="Type your answer here...">
+                <br><br>
+                <button class="show-btn" onclick="this.nextElementSibling.style.display='block'">Show Answer</button>
+                <p class="answer" style="display:none;">✅ The answer is <strong>False</strong>. A conditional is only false when p is True and q is False.</p>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question-block">
+                <p><strong>3.</strong> What connective is used for <strong>Biconditional</strong> and when is it <strong>True</strong>?</p>
+                <input type="text" placeholder="Type your answer here...">
+                <br><br>
+                <button class="show-btn" onclick="this.nextElementSibling.style.display='block'">Show Answer</button>
+                <p class="answer" style="display:none;">✅ The connective is <strong>"if and only if"</strong> (p ↔ q). It is True only when both p and q have the <strong>same value</strong> (both True or both False).</p>
+            </div>
+
+        </section>
+
+        <div class="button-container" style="padding: 20px 0;">
+            <a href="https://forms.gle/6iUV91Jfxw7E9Z6o8" target="_blank">
+                <button class="leftsidebutton"><b>Challenge Exam</b></button>
+            </a>
+        </div>
+
+    </main>
+    
+</body>
+</html>

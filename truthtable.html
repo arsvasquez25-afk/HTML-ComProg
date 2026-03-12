@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <img src="/MMW/rosswaylogo1.png" alt="Logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="truthtable.html"  class="active">Truth Table</a>
+            <a href="practice.html">Practice</a>
+        </div>
+    </nav>
+
+    <main class="rectangle">
+
+        <!--  HEADER  -->
+        <header>
+            <h1 style="text-align: center;">Truth Tables</h1>
+        </header>
+<!-- ================= TRUTH TABLES ================= -->
+        <section>
+            <p style="text-align: center;">A tabular presentation showing how the truth of a compound proposition varies with its components.</p>
+
+            <!-- Example Table -->
+            <div class="table-wrapper">
+                <h5>Negation</h5>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 50%;">p</th>
+                            <th style="width: 50%;">~p</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper" style="padding-top: 20px;">
+                <h5>Conjunction</h5>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">p</th>
+                            <th style="width: 30%;">q</th>
+                            <th style="width: 40%;">p V q</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper" style="padding-top: 20px;">
+                <h5>Disjunction</h5>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">p</th>
+                            <th style="width: 30%;">q</th>
+                            <th style="width: 40%;">p &vee; q</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper" style="padding-top: 20px;">
+                <h5>Conditional</h5>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">p</th>
+                            <th style="width: 30%;">q</th>
+                            <th style="width: 40%;">p → q</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+            </div>
+            <div class="table-wrapper" style="padding-top: 20px;">
+                <h5>Biconditional</h5>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">p</th>
+                            <th style="width: 30%;">q</th>
+                            <th style="width: 40%;">p ⟺ q</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    <section style="max-width: 60%; position: relative; left: 50%; translate: -50% -50%; padding-top: 100px;">
+        <h2 style="text-align: center; padding-top: 30px; color: dimgray;">Let's Try!</h2>
+        <p style="text-align: center; padding-top: -50px; color: dimgray; font-size: 12px;">Study the truth table on your own pace before proceeding on the practice exam.</p>
+
+            <div style="padding-top: 10px;" class="button-container">
+                <a href="index.html" title="View Tables">
+                <button class="leftsidebutton"><b>Go Back</b></button>
+                </a>
+
+                <a href="practice.html" target=_self title="View Tables">
+                <button class="rightsidebutton"><b>Practice</b></button>
+                </a>
+            </div>
+        
+    </section>
+
+    </main>
+    </body>
+</html>
